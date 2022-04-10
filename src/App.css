@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  height:100vh;
+  background-color: #dddddd;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header div {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-list {
+  background-color: #aaaaaa;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: grid;
+  list-style: none;
+}
+
+.App-list div {
+  padding: 16;
+  margin: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
